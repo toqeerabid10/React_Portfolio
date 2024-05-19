@@ -9,9 +9,9 @@
 }
 
 .introduction .profile-pic {
-  width: 300px;
-   height: 350px;
-  margin-top: -160px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .introduction h1 {
@@ -23,7 +23,7 @@
 .introduction p {
   font-size: 1.2em;
   margin: 20px 0;
-  margin-top: 150px;
+  margin-left: 35%;
 }
 
 .projects {

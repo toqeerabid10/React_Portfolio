@@ -3,9 +3,7 @@ import { ProgressBar } from 'react-bootstrap';
 import './Skills.css'; // Custom CSS for styling
 
 const skills = [
-  { name: 'JavaScript', proficiency: 90},
-  { name: 'JQuerry', proficiency: 90},
-  { name: 'MongoDB', proficiency: 90},
+  { name: 'ASP.Net', proficiency: 70 },
   { name: 'React.js', proficiency: 75 },
   { name: 'CSS', proficiency: 90 },
   { name: 'C++', proficiency: 90 },
