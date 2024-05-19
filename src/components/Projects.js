@@ -1,27 +1,21 @@
 import React from 'react';
 import { Card, Button, Row, Col } from 'react-bootstrap';
-import agroease from './agroease.jpg';
-import document from './document_verify.png'
+import aero from './aero.png';
+import LOGO from './LOGO2.PNG'
 const projects = [
   {
-    image: agroease,
-    name: 'AgroEase',
-    description: 'AgroEase is a .Net Blazor application. It is Agricultural marketplace where any farmer can upload own agricultural items and sell out to customer with user friendly View',
-    link:'https://github.com/toqeerabid10/.Net-AgroEase'
+    image: aero,
+    name: 'Airline Reservation System',
+    description: 'Airline Reservation System is a React application.It basically handels out all of the reswervations of the clients regarding airlines and their travell ',
+    link:'https://github.com'
   },
   {
-    image: document,
-    name: 'Blockchain Document Verify',
-    description: 'The application hashes documents using the SHA algorithm, stores them on Pinata IPFS and Ethereum blockchain via smart contracts, and includes essential functions like verify, store, add, delete, edit, sign in, and sign out in the main `app.js` file. The smart contract was developed using Remix IDE, with the deployed contracts address and ABI stored in the app for seamless transactions.',
-    link: 'https://github.com/toqeerabid10/Documents_verification_Blockchain'
+    image: LOGO,
+    name: 'ExamTech',
+    description: 'ExamTEch as an AI based auto grading system which marks students paers without any manual teachers interference.',
+    link: 'https://github.com'
   },
-  {
-    image: agroease,
-    name: 'AgroEase-Flutter App',
-  description:'Aggroease is a Flutter application that i have created and designed. Firebase also added as a database',
-    link: 'https://github.com/toqeerabid10/Aggroease_App'
   
-  },
 ];
 
 const Projects = () => {
